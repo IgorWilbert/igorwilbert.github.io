@@ -2,292 +2,328 @@
 <html class="no-js" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Igor Wilbert</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Igor Wilbert</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+  <div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </div>
+  <!-- End #mobile-menu-toggle -->
+  <header>
+    <div id="mobile-menu-close">
+      <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+    <ul id="menu" class="shadow">
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#experience">Experience</a>
+      </li>
+      <li>
+        <a href="#education">Education</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#activities">Activities</a>
+      </li>
+      <li>
+        <a href="#skills">Interests</a>
+      </li>
+      <!-- <li>
+        <a href="#contact">Contact</a>
+      </li> -->
+    </ul>
+  </header>
+  <!-- End header -->
+
+  <div id="lead">
+    <div id="lead-content">
+      <h1>Igor Wilbert</h1>
+      <h2>Software Developer</h2>
+    </div>
+    <!-- End #lead-content -->
+
+    <div id="lead-overlay"></div>
+
+    <div id="lead-down">
+      <span>
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </span>
+    </div>
+    <!-- End #lead-down -->
+  </div>
+  <!-- End #lead -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="heading">About Me</h2>
         </div>
-        <ul id="menu" class="shadow">
+        <div class="col-md-8">
+          <p>
+            Hello! I am a Computer Science student from Brazil actively looking for internships. I have experience with software development, especially for web and mobile platforms, from past internships and personal projects. My professional
+            interests include, but are not limited to app development (front-end and back-end), operating systems, networks, machine learning, natural language understanding and artificial intelligence.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End #about -->
+
+  <div id="experience" class="background-alt">
+    <h2 class="heading">Experience</h2>
+    <div id="experience-timeline">
+      <div data-date="April 2019 – Present">
+        <h3>Uber</h3>
+        <h4>Software Engineer Intern</h4>
+        <p>
+          - Troubleshooting and improving documentation of Horovod, a training framework for Tensorflow, using Python and Sphinx.
+        </p>
+        <p>
+          - Implementing new features in BaseUI, a React component library used in over 300 apps by Uber, using Javascript, HTML5 and CSS.
+        </p>
+      </div>
+
+      <div data-date="December 2018 – January 2019">
+        <h3>Wish</h3>
+        <h4>Software Engineer Intern</h4>
+        <p>
+          - Improved product classification methods using Java, JavaScript, HTML and CSS;
+        </p>
+        <p>
+          - Validated changes in user behavior by analyzing usage patterns of API endpoints using SQL, MongoDB and AWS;
+        </p>
+      </div>
+
+      <div data-date="December 2017 – June 2018">
+        <h3>Maple Leaf Foods Inc.</h3>
+        <h4>Software Engineer Intern</h4>
+        <p>- Improved authenticity of user experience by implementing Microsoft LUIS for natural language understanding into a chat bot developed with Microsoft Bot Framework;</p>
+        <p>- Decreased login/logout time of customers by 25% by integrating computer vision for facial recognition into the company’s Android app</p>
+        <p>- Migrated data from SQL server to NoSQL server on Microsoft Azure to enhance flexibility and ease of data management;</p>
+      </div>
+
+    </div>
+  </div>
+  <!-- End #experience -->
+
+  <div id="education">
+    <h2 class="heading">Education</h2>
+    <div class="education-block">
+      <h3>Federal University of Rio Grande do Sul</h3>
+      <span class="education-date">June 2018 - Present</span>
+      <h4>Bachelor of Science in Computer Engineering</h4>
+    </div>
+    <!-- End .education-block -->
+
+    <div class="education-block">
+      <h3>Liberato Foundation</h3>
+      <span class="education-date">January 2014 - June 2018</span>
+      <h4>High School Diploma integrated with Technical Course</h4>
+    </div>
+    <!-- End .education-block -->
+  </div>
+  <!-- End #education -->
+
+  <div id="projects" class="background-alt">
+    <h2 class="heading">Projects</h2>
+    <div class="container">
+      <div class="row">
+        <div class="project shadow-large">
+          <div class="project-image">
+            <img src="images/jh.png" />
+          </div>
+          <!-- End .project-image -->
+          <div class="project-info">
+            <div class="project-date">
+              <h3>JetHub</h3>
+              <h4>May 2018 – Jul 2018</h4>
+            </div>
+            <p>- Quiz app used to stimulate studying among high school students with questions about Math, Science and Portuguese;</p>
+            <p>- Chat, ranking of players, achievements and timed questions allowed for an immersive UX;</p>
+            <p>- Developed using Java, Android Studio and SQLite;</p>
+            <a href="https://github.com/IgorWilbert/JetHub">View Project</a>
+          </div>
+          <!-- End .project-info -->
+        </div>
+        <!-- End .project -->
+        <div class="project shadow-large">
+          <div class="project-image">
+            <img src="images/map.jpg" />
+          </div>
+          <!-- End .project-image -->
+          <div class="project-info">
+            <div class="project-date">
+              <h3>SpotFinder</h3>
+              <h4>Sep 2017 – Oct 2017<h4>
+            </div>
+            <p>- Desktop app that provides information about the nearest cafes, restaurants and venues;</p>
+            <p>- Yelp Fusion API informs the user about business name, address, services, phone number etc.;</p>
+            <p>- Written mostly in Python, with navigation provided by Google Maps API;</p>
+            <a href="https://github.com/IgorWilbert/SpotFinder">View Project</a>
+          </div>
+          <!-- End .project-info -->
+        </div>
+        <!-- End .project -->
+        <div class="project shadow-large">
+          <div class="project-image">
+            <img src="images/SQL.jpg" />
+          </div>
+          <!-- End .project-image -->
+          <div class="project-info">
+            <div class="project-date">
+              <h3>Imaginary Soccer Championship</h3>
+              <h4>Apr 2017</h4>
+            </div>
+            <p>- Database that determines the winner of a fictional soccer championship;</p>
+            <p>- The result of each soccer match is stored in a PostgreSQL database in Google Cloud SQL;</p>
+            <p>- The winner is defined using a Vagrant VM and adequate queries;</p>
+            <a href="https://github.com/IgorWilbert/Imaginary-Soccer-Championship">View Project</a>
+          </div>
+          <!-- End .project-info -->
+        </div>
+        <!-- End .project -->
+        <div class="project shadow-large">
+          <div class="project-image">
+            <img src="images/PacmanGo.JPG" />
+          </div>
+          <!-- End .project-image -->
+          <div class="project-info">
+            <div class="project-date">
+              <h3>PacmanGo</h3>
+              <h4>Aug 2016</h4>
+            </div>
+            <p>- Pac-Man game version in which ghosts can pass through walls;</p>
+            <p>- User interface was created using Swing and Java 2D, with logic for enemy movements based on relative distance;</p>
+            <p>- Interesting features are the 2D Array used as map and the controller conversion from keyboard to mouse</p>
+            <a href="https://github.com/IgorWilbert/PacmanGo">View Project</a>
+          </div>
+          <!-- End .project-info -->
+        </div>
+        <!-- End .project -->
+      </div>
+    </div>
+  </div>
+  <!-- End #projects -->
+
+  <div id="activities">
+    <h2 class="heading">Other Activities</h2>
+    <div class="education-block">
+      <h3>Google Summer of Code Mentor</h3>
+      <span class="education-date">May 2019 - Present</span>
+      <h4>Mentor of three projects for Public Lab:</h4>
+      <h4>- Mapknitter ORB Descriptor and LDI revamp</h4>
+      <h4>- Sensor Data Upload and Display Library</h4>
+      <h4>- Image-Sequencer v3: Boosting the performance and adding demonstration based on colorimetry</h4>
+      <a href="https://summerofcode.withgoogle.com/organizations/5544218626359296/">View Details</a>
+    </div>
+    <!-- End .education-block -->
+
+    <div class="education-block">
+      <div class="title-spacer">
+        <h3>Online Courses</h3>
+      </div>
+      <h4>- Machine Learning - Stanford - 2018</h4>
+      <h4>- Natural Language Processing - MIT OCW - 2017</h4>
+      <h4>- Full Stack Development Certification - Free Code Camp - 2016</h4>
+      <h4>- Computer Science 101 - Stanford - 2016</h4>
+    </div>
+    <!-- End .education-block -->
+  </div>
+  <!-- End #education -->
+
+  <div id="skills">
+    <h2 class="heading">Interests and Technologies</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>Mobile Apps</li>
+      <li>Machine Learning</li>
+      <li>Artificial Intelligence</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>C++</li>
+      <li>C#</li>
+      <li>JavaScript</li>
+      <li>HTML5</li>
+      <li>CSS</li>
+      <li>React</li>
+      <li>Git</li>
+      <li>Microsoft Azure</li>
+      <li>MongoDB</li>
+    </ul>
+  </div>
+  <!-- End #skills -->
+
+  <div id="contact">
+    <!-- <h2>Get in Touch</h2>
+    <div id="contact-form">
+      <form method="POST" action="https://formspree.io/igor.wilbert@gmail.com">
+        <input type="hidden" name="_subject" value="Contact request from personal website" />
+        <input type="email" name="_replyto" placeholder="Please enter your email here" required>
+        <textarea name="message" placeholder="Trust me, Igor is going to get this message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div> -->
+    <!-- End #contact-form -->
+  </div>
+  <!-- End #contact -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 copyright">
+          <p>
+            Copyright &copy; 2019 Igor Wilbert
+          </p>
+        </div>
+        <div class="col-sm-2 top">
+          <span id="to-top">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+          </span>
+        </div>
+        <div class="col-sm-5 social">
+          <ul>
             <li>
-                <a href="#about">About</a>
+              <a href="https://github.com/IgorWilbert" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <!-- <li>
+              <a href="https://stackoverflow.com/users/10536281/igor-wilbert" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+            </li> -->
+            <li>
+              <a href="https://www.linkedin.com/in/igor-wilbert-017679145/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+              <a href="https://www.facebook.com/igor.wilbert" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </li>
             <li>
-                <a href="#education">Education</a>
+              <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Igor Wilbert</h1>
-            <h2>Software Developer</h2>
-            <a href="#" class="btn-rounded-white">View Resume</a>
+            <!-- <li>
+              <a href="https://plus.google.com/106855718459193180097" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </li> -->
+          </ul>
         </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
+      </div>
     </div>
-    <!-- End #lead -->
+  </footer>
+  <!-- End footer -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I am currently a second year undergraduate student at the Unisinos University where I am pursuing a degree in Computer Science. If you are looking for a student passionate for technology with a strong drive to learn, please reach me out and I will reply as soon as I can. On this page you will find both my software and hardware projects. It will have the earliest update of my development portfolio.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="December 2017 – March 2018">
-                <h3>Hacks Technology</h3>
-                <h4>Software Developer Intern</h4>
-                <p>
-                    During my time at Hacks I was responsible for the development of an app for Android to control a solar-powered watering system. I also played a major role in the implementation of a product reception diagnosis tool using IBM Watson News AI survey. The migration of data from SQL server to NoSQL server on AWS, which improved data management, flexibility and cost, was also made by me.
-                </p>
-            </div>
-
-            <div data-date="August 2017 – October 2017">
-                <h3>CollAction</h3>
-                <h4> Volunteer Full Stack Web Developer</h4>
-                <p>
-                    CollAction is a nonprofit NGO that aims to suppor people in solving collective action problems through crowdacting, a crowdfunding variant with actions. I was responsible for part of the work of updating the API of the platform, using mostly BrowserStack, CSS and HTML.
-                </p>
-            </div>
-
-            <div data-date="May 2017 – August 2017">
-                <h3>Geekie</h3>
-                <h4>Full Stack Developer Intern</h4>
-                <p>
-                    As a software developer intern at Geekie, I was responsible for updating the website API, uploading new questions of a variety of subjects for users to study for college admission tests and implemented several gamification elements to make user experience more interesting using Java, ReactJS, Ruby and MySQL. Knowing that my work made a difference in education was very rewarding.
-                </p>
-            </div>
-
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Unisinos University</h3>
-            <span class="education-date">March 2017 - Present</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Learning something new every day, inside and outside classroom.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>freeCodeCamp</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Full Stack Web Developmente Certification</h4>
-            <p>
-              Simple coursework which proved itself very useful.
-            </p>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/PacmanGo.JPG" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>PacmanGo</h3>
-                        <p>
-                          PacmanGo is a spin-off on the original Pacman game, in which ghost can pass through the walls! Relevant parts of the project are the controller conversion from keyboard to mouse and the map implementation. The map is defined as a 2D int ("bool") array of 0's and 1's, signifying a wall or empty space. When a Map object is initialized, it converts the array into an array of Polygons and everytime it finds a wall segment, it recursively finds the whole wall which contains that segment. Then, it is turned into a polygon, and the values of the found wall in the array are all set to 0. The collision detection, on the other hand, checks if the Pacman bounding box intersects with any of the polygons of the map.
-                        </p>
-                        <a href="https://github.com/IgorWilbert/PacmanGo">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/piggy.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Piggy</h3>
-                        <p>
-                          This is an app created using Java, Ionic, Node.js and MongoDB that teaches economy concepts to children in an enviroment similar to a game. Working together in a team, we made Piggy under 36 hours and won 1st place at the Santander The Code Force Hackathon. This project was used to promote a microinvestments startup that bears the same name.
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/SQL.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Championship Result</h3>
-                        <p>
-                           I developed a PostgreSQL relational database scheme to store the results of a soccer championship and efficiently report the results through the required queries. It was a very good opportunity to practice my Python and database skills.
-                        </p>
-                        <a href="https://github.com/IgorWilbert/Imaginary-Soccer-Championship">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/map.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Spot Finder</h3>
-                        <p>
-                            Developed an app in Python for finding nearby restaurants and SPA Venues and then displaying complete info for the user. The info about the selected venue includes timings, contact details, addresses, website links etc. I made it for immediate use, while visiting a friend abroad.
-                        </p>
-                        <a href="https://github.com/IgorWilbert/SpotFinder">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills and Interests</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Android Development</li>
-            <li>Search Engines</li>
-            <li>Database Design</li>
-            <li>ML</li>
-            <li>AI</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>C</li>
-            <li>HTML</li>
-            <li>SQL</li>
-            <li>ReactJS</li>
-            <li>Node.js</li>
-            <li>Ionic</li>
-            <li>Git</li>
-            <li>AWS</li>
-            <li>CSS</li>
-            <li>MongoDB</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/igor.wilbert@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2018 Igor Wilbert
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/IgorWilbert" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/users/10536281/igor-wilbert" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/igor-wilbert-017679145/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/igor.wilbert" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/106855718459193180097" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/scripts.min.js"></script>
 </body>
 
 </html>

@@ -576,6 +576,18 @@ footer {
     -------------------------------
 */
 
+
+#activities {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
+
 #education {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid $border;
@@ -610,7 +622,6 @@ footer {
         color: $text;
         clear: both;
         font-weight: 500;
-        margin: 0 0 15px 0;
     }
 
     p, ul {
@@ -622,6 +633,10 @@ footer {
     ul {
         padding: 0 0 0 15px;
     }
+}
+
+.title-spacer{
+  padding-bottom:20px;
 }
 
 /*
@@ -641,6 +656,10 @@ footer {
     }
 }
 
+.project-date {
+  display: flex;
+}
+
 .project {
     position: relative;
     max-width: 900px;
@@ -658,14 +677,24 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 320px;
     padding: 15px;
+    text-align: left;
 
     h3 {
         font-size: 1.5em;
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
+    }
+
+    h4 {
+        font-size: 1.2em;
+        font-weight: 300;
+        color: $heading;
+        position: absolute;
+        top:-10px;
+        right:30px;
     }
 
     p {
@@ -697,9 +726,10 @@ footer {
 #skills {
     padding: 50px 15px;
     text-align: center;
+    background: $base-color;
 
     h2 {
-        color: $heading;
+        color: white;
         margin-bottom: 50px;
     }
 
